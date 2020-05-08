@@ -1,0 +1,15 @@
+float64 elapsed_time
+float64 x
+float64 y
+float64 th
+float64 linear
+float64 angular
+float64 error
+float64 delta_error
+float64 left_side
+float64 left_forward
+float64 right_forward
+float64 right_side
+bool is_servo_on
+bool is_turn_right
+bool is_wall_front

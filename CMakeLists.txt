@@ -25,6 +25,8 @@ find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(pimouse_msgs
   "msg/LightSensorValues.msg"
+  "msg/RunData.msg"
+  "srv/PiMouseCmd.srv"
   DEPENDENCIES builtin_interfaces
 )
 
